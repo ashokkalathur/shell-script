@@ -2,7 +2,7 @@
 
 ID=$(id -u)
 
-VALIDAtE(){
+VALIDATE(){
     if [ $? -ne 0 ]
 then
   echo "installing mysql is failed"
