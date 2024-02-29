@@ -7,6 +7,8 @@ R="\e[31m"
 G="\e[32m"
 N="\e[0m"
 
+echo "Script started executing at $TIMESTAMP"
+
 LOGFILE="/tmp/$0-$TIMESTAMP.log"
 
 echo "script name: $0"
