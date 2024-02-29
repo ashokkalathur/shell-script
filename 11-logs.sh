@@ -1,8 +1,9 @@
 #!/bin/bash
 
 ID=$(id -u)
-TIMESTAMP= echo "$(date +%F-%T)"
-LOGFILE="/tmp/$0-$(TIMESTAMP).log"
+TIMESTAMP=$(date +%F-%T)
+
+LOGFILE="/tmp/$0-$TIMESTAMP.log"
 
 echo "script name: $0"
 
